@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
         _user = _user?.copyWith(avatarUrlImage: response.data);
         setState(() {});
 
-        // final String imageUrl = "http://192.168.20.13:9000${response.data}";
+        // final String imageUrl = "http://182.178.23.13:9000${response.data}";
         // Logs.p.i(imageUrl);
       }
     }
@@ -81,7 +81,7 @@ class _HomePageState extends State<HomePage> {
         _user = _user?.copyWith(avatarUrlImage: response.data);
         setState(() {});
         // ProgressDialog.dissmiss(context);
-        // final String imageUrl = "http://192.168.20.13:9000${response.data}";
+        // final String imageUrl = "http://182.178.23.13:9000${response.data}";
         // Logs.p.i(imageUrl);
       }
       Dialogs.alert(context,
@@ -114,7 +114,7 @@ class _HomePageState extends State<HomePage> {
                     margin: EdgeInsets.fromLTRB(0, 0, 0, 20.0),
                     child: ClipOval(
                       child: Image.network(
-                        "http://192.168.20.13:9000${_user!.avatarUrlImage}",
+                        "http://182.178.23.13:9000${_user!.avatarUrlImage}",
                         width: 100,
                         height: 100,
                         fit: BoxFit.cover,

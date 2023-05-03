@@ -8,7 +8,7 @@ import 'package:get_it/get_it.dart';
 
 abstract class DependencyInjection {
   static void initialize() {
-    final Dio dio = Dio(BaseOptions(baseUrl: "http://192.168.20.13:9000"));
+    final Dio dio = Dio(BaseOptions(baseUrl: "http://182.178.23.13:9000"));
     Http http = Http(
       dio: dio,
       logsEnabled: true,

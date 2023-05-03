@@ -42,7 +42,7 @@ class AuthenticationApi {
   //     'password': password,
   //   };
   //   final String apiUrl =
-  //       'http://192.168.20.13:9000/api/v1/register'; // URL de la API
+  //       'http://182.178.23.13/api/v1/register'; // URL de la API
 
   //   final response = await http.post(
   //     Uri.parse(apiUrl),
@@ -63,7 +63,7 @@ class AuthenticationApi {
   // Future<void> validatorReaquest() async {
   //   try {
   //     final Response<String> response = await _dio.get<String>(
-  //         "http://192.168.20.13:9000/",
+  //         "http://182.178.23.13:9000/",
   //         options: Options(headers: {"Content-Type": "application/json"}));
   //     // print(response.data);
   //     _logger.i(response.data);
